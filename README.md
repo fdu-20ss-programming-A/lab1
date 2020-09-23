@@ -183,10 +183,10 @@ int main(){
 int main(){
     char input[6];
     int i;
-    for(int i = 0; i < 5; i++){
+    for(i = 0; i < 5; i++){
         input[i] = getchar();/* getchar()从命令行获取一个输入的字符 */
     }
-    for(int i = 0; i < 5; i++){
+    for(i = 0; i < 5; i++){
         printf("%c",input[i]);
     }
     return 0;
