@@ -61,7 +61,7 @@ printf("<格式化字符串>", <参量表>);
 
 ```c
 int main(){
-	int a = 0, b = 1;
+    int a = 0, b = 1;
     float c = 1.5;
     printf("a=%d,b=%d,c=%f\n",a,b,c);
     return 0;
@@ -229,6 +229,8 @@ Press ENTER to exit console.
 
 ## 5. LAB1上机作业
 
+> 上机作业要求每题单独写在XXX.c文件中。
+
 ### Question 1
 
 题目
@@ -241,9 +243,7 @@ Press ENTER to exit console.
 
 示例
 
-> 请输入三角形的底：10
->
-> 请输入三角形的高：5
+> 请输入三角形的底和高：10,5
 >
 > 三角形的面积为：25.00
 
@@ -302,3 +302,4 @@ Press ENTER to exit console.
 提示
 
 > 华氏温度 = (9/5) * 摄氏温度 + 32
+
