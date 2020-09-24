@@ -111,7 +111,7 @@ int main(){
 
 ```c
 int max(int x, int y, int z){
-	if(x > y && x > z){
+    if(x > y && x > z){
         return x;
     }
     if(y > x && y > z){
@@ -130,27 +130,27 @@ int max(int x, int y, int z){
 
 int main(){
     int max(int x, int y, int z);/*对被调用函数max的声明*/
-	int a, b, c, d; /*定义变量a, b, c*/
-	printf("请输入三个整数:");
-	scanf("%d,%d,%d",&a, &b, &c);/*输入变量a,b和c的值*/
-	d=max(a,b,c);/*调用max函数，将得到的值赋给d*/
-	printf("max=%d\n",d);/*输出d的值*/
-	return 0;
+    int a, b, c, d; /*定义变量a, b, c*/
+    printf("请输入三个整数:");
+    scanf("%d,%d,%d",&a, &b, &c);/*输入变量a,b和c的值*/
+    d=max(a,b,c);/*调用max函数，将得到的值赋给d*/
+    printf("max=%d\n",d);/*输出d的值*/
+    return 0;
 }
 
 /*定义max函数，函数值为整型，形式参数x,y,z为整型*/
 int max(int x, int y, int z){
-	int r;  /*max函数中的声明部分，定义本函数中用到的变量z为整型*/
-	if(x>y){
+    int r;  /*max函数中的声明部分，定义本函数中用到的变量z为整型*/
+    if(x>y){
         r=x;
     }
-	else{
+    else{
         r=y;
     }
     if(r<z){
         r=z;
     }
-	return  r;/*将z的值返回，通过max带回到调用函数的位置*/
+    return  r;/*将z的值返回，通过max带回到调用函数的位置*/
 }
 ```
 
@@ -247,7 +247,7 @@ int main(){
 ### 参考链接
 
 + [菜鸟教程--C标准库](https://www.runoob.com/cprogramming/c-standard-library-stdio-h.html)
-+ [Linux库函数手册](https://linux.die.net/man/)
++ [Linux库函数手册](https://man7.org/linux/man-pages/dir_section_3.html)
 
 
 
